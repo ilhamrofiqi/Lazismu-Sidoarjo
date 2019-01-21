@@ -1,0 +1,117 @@
+body {
+  height: 0px;
+  font-family: "lazismu";
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "lazismu";
+  src: url('../font/Lato-Regular.ttf');
+}
+
+
+/*google font*/
+
+h1, h2, h3, h4 {
+  font-family: 'lato', sans-serif;
+  font-weight: 400;
+}
+
+p {
+  font-family: 'lato', sans-serif;
+}
+
+a {
+  font-family: 'lato', sans-serif;
+}
+
+
+/*navbar*/
+
+.navbar {
+  background-color: #4682B4;
+  font-weight: 700;
+}
+
+.navbar a {
+  color: #000 !important;
+  margin: 10px;
+}
+
+.navbar a:hover {
+  color: #FFf !important;
+}
+
+.dropdown-menu {
+  background-color: #4682B4;
+}
+
+.dropdown-menu a:hover {
+  background-color: #4682B4 !important;
+}
+
+.navbar-toggle {
+  top: 0px;
+  background-color: #fff;
+}
+
+
+/*dashboard*/
+
+.dashboard h1 {
+  margin: 250px 0 100px;
+  font-size: 50px;
+}
+
+
+/*donatur*/
+
+.donatur h2 {
+  margin: 0px 0 40px;
+}
+
+
+/*berita*/
+
+.berita h2 {
+  margin: 0px 0 10px;
+}
+
+.berita button {
+  margin: 0px 0 40px;
+  background-color: #4682B4;
+  color: #000;
+}
+
+
+/*add berita*/
+
+.add-berita p {
+  width: 100px;
+  height: 13px;
+}
+
+.add-berita button {
+  margin: 0px 0 50px;
+  background-color: #4682B4;
+}
+
+
+/*footer*/
+
+.footer {
+  padding: 15px 0 15px;
+  text-align: center;
+  background-color: #000;
+  position: absolute;
+  bottom: -500px;
+  width: 100%;
+}
+
+.footer p {
+  color: #737373;
+  font-size: 17px;
+}
+
+
+/*cek login*/

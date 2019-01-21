@@ -1,0 +1,275 @@
+/*program sosial*/
+
+.sosial {
+    margin: -20px 0 0px;
+    padding: 10px 0 20px;
+    text-align: center;
+    background-color: #ffc100;
+    margin-bottom: 10px;
+
+}
+
+.sosial img {
+    width: 380px;
+    height: 350px;
+    margin: -30px 0 0px;
+    margin-left: -30px;
+    margin-bottom: -80px;
+}
+
+.sosial h1 {
+    margin: 130px;
+    font-size: 40px;
+    margin-left: 20px;
+    text-align: center;
+
+}
+
+.program {
+    margin-bottom: 50px;
+    padding: 30px;
+    border: 3px solid #ffa500;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-top: 30px;
+
+}
+
+.program h1 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.program p {
+    text-align: center;
+    font-size: 14px;
+}
+
+.program i {
+    font-size: 100px;
+    color: #ffa500;
+}
+
+.logo img {
+    display: block;
+    margin: 0px auto;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    width: 131px;
+    height: 75px;
+}
+
+/*akhir program sosial*/
+
+/*Program Ekonomi*/
+
+.ekonomi {
+    margin: -20px 0 0px;
+    padding: 10px 0 20px;
+    text-align: center;
+
+    background-color: #ffc100;
+    margin-bottom: 10px;
+
+}
+
+.ekonomi img {
+    width: 380px;
+    height: 350px;
+    margin: -30px 0 0px;
+    margin-left: -30px;
+    margin-bottom: -80px;
+}
+
+.ekonomi h1 {
+    margin: 130px;
+    font-size: 40px;
+    margin-left: 20px;
+    text-align: center;
+
+}
+
+.eknm {
+    margin-bottom: 50px;
+    padding: 30px;
+    border: 3px solid #ffa500;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-top: 30px;
+
+}
+
+.eknm h1 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.eknm p {
+    text-align: center;
+    font-size: 14px;
+}
+
+.eknm i {
+    font-size: 100px;
+    color: #ffa500;
+}
+
+.logo img {
+    display: block;
+    margin: 0px auto;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    width: 131px;
+    height: 75px;
+}
+
+/*Akhir program ekonomi*/
+
+.masyarakat {
+    margin: -20px 0 0px;
+    padding: 10px 0 20px;
+    text-align: center;
+    background-color: #ffc100;
+    margin-bottom: 10px;
+
+}
+
+.masyarakat img {
+    width: 380px;
+    height: 350px;
+    margin: -30px 0 0px;
+    margin-left: -30px;
+    margin-bottom: -60px;
+
+}
+
+.masyarakat h1 {
+    margin: 135px;
+    font-size: 30px;
+    margin-left: 20px;
+    text-align: center;
+
+}
+
+.msrkt {
+    margin-bottom: 50px;
+    padding: 30px;
+    border: 3px solid #ffa500;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-top: 30px;
+
+}
+
+.msrkt h1 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.msrkt p {
+    text-align: center;
+    font-size: 14px;
+}
+
+.msrkt i {
+    font-size: 100px;
+    color: #ffa500;
+}
+
+.logo img {
+    display: block;
+    margin: 0px auto;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    width: 131px;
+    height: 75px;
+}
+
+/*akhir program kemasyarakatan*/
+
+/*Program Pendidikan*/
+
+.pendidikan {
+    margin: -20px 0 0px;
+    padding: 10px 0 20px;
+    text-align: center;
+    background-color: #ffc100;
+    margin-bottom: 10px;
+
+}
+
+.pendidikan img {
+    width: 380px;
+    height: 350px;
+    margin: -30px 0 0px;
+    margin-left: -30px;
+    margin-bottom: -60px;
+}
+
+.pendidikan h1 {
+    margin: 130px;
+    font-size: 30px;
+    margin-left: 20px;
+    text-align: center;
+    margin-top: 140px;
+
+}
+
+.pdkn {
+    margin-bottom: 50px;
+    padding: 30px;
+    border: 3px solid #ffa500;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-top: 30px;
+
+}
+
+.pdkn h1 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.pdkn p {
+    text-align: center;
+    font-size: 14px;
+}
+
+.pdkn i {
+    font-size: 100px;
+    color: #ffa500;
+}
+
+.logo img {
+    display: block;
+    margin: 0px auto;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    width: 131px;
+    height: 75px;
+}
+
+
+/*Akhir Program Pendidikan*/
+
+/*Tentang kami*/
+
+.gambar img {
+    display: block;
+    margin: 0px auto;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    width: 131px;
+    height: 75px;
+}
+
+/*akhir Tentang Kami*/

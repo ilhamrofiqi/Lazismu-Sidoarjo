@@ -1,0 +1,349 @@
+body{
+  height: 0px;
+}
+
+@@font-face {
+  font-family: 'lazismu';
+  src: url(..font/Lato-Regular.ttf);
+}
+
+/*font*/
+h1, h2, h3, h4 {
+  font-family: 'lazismu';
+  font-weight: 400;
+}
+
+p{
+  font-family: 'lazismu';
+}
+
+a{
+  font-family: 'lazismu';
+}
+
+/*google font*/
+h1, h2, h3, h4 {
+  font-family: 'lato', sans-serif;
+  font-weight: 400;
+}
+
+p{
+  font-family: 'lato', sans-serif;
+}
+
+a{
+  font-family: 'lato', sans-serif;
+}
+
+/*info*/
+.info{
+  background-color: #ffa500;
+  padding: 10px 0 10px;
+}
+/*navbar*/
+.navbar{
+  background-color: #fff;
+  font-weight: 700;
+}
+
+.navbar a{
+  color: #000 !important;
+  margin: 10px;
+
+}
+
+.navbar li a:hover{
+  background-color: #ff6d00 !important;
+  opacity: 1;
+  border-radius: 20px;
+}
+
+.navbar-toggle{
+  top: 10px;
+}
+
+
+/*header*/
+	#container {
+		width:100%;
+		position:relative;
+		}
+	#slideshow {
+		height:100%;
+		width:100%;
+		}
+	#slideshow img {
+    margin-top: -10px;
+		height:100%;
+		width:100%;
+		position: absolute;
+		z-index:10;
+		min-width:100%;
+		min-height:100%;
+		}
+	#pager:hover {
+		opacity:1;
+		}
+	#pager img {
+		margin: 10px 5px;
+		opacity:0.3;
+		transition:all .3s ease-in-out 0s;
+		}
+	#pager img:hover {
+		opacity:1;
+		transform:scale(1.05);
+		z-index:100;
+		}
+  .cycle-overlay{
+    height:50%;
+    width:50%;
+    position:absolute;
+    top:-20px;
+    z-index:600;
+    margin: 1px 100px;
+    }
+	#prev_c {
+		height:100%;
+		width:100px;
+		position:absolute;
+		left:10px;
+		top:0;
+		z-index:100;
+		}
+		#prev_c i {
+			height:50px;
+			width:50px;
+			position:absolute;
+			top:0;
+			bottom:0;
+			left:0;
+			margin:auto 0px;
+			}
+
+	#next_c {
+		height:100%;
+		width:100px;
+		position:absolute;
+		right:0;
+		top:0;
+		z-index:100;
+		}
+		#next_c i {
+			height:50px;
+			width:50px;
+			position:absolute;
+			top:0;
+			bottom:0;
+			right:0;
+			margin:auto 0px;
+			}
+		#next #prev { visibility:hidden;}
+		#next,#prev:hover {
+			cursor:pointer;
+			}
+		#next_c,#prev_c:hover #next,#prev { visibility:visible;}
+
+
+/*Servis*/
+.servis{
+  padding: 15px 0 15px;
+  text-align:center;
+  margin: 30px 0 0px;
+}
+
+.servis h2 {
+  color: #4c4c4c;
+  margin: 5px 0 5px;
+}
+.servis h4 {
+  color: #4c4c4c;
+  margin: 30px 0 30px;
+}
+
+.servis p{
+  color: #737373;
+  font-size: 17px;
+  padding-bottom: 40px;
+}
+
+.servis i {
+  color: #ff6d00;
+}
+
+@media(max-width:768px) {
+  .servis{
+    padding: 30px;
+  }
+}
+
+/*Donasi*/
+
+.donasi{
+  padding: 50px 0 80px;
+  text-align: center;
+  background-color: #ffc100;
+}
+
+.donasi h2,
+.donasi p{
+  color: #fff;
+}
+
+.donasi p{
+  padding-bottom: 40px;
+  font-size: 17px;
+}
+
+.donasi .packages{
+  padding: 30px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  border-radius: 5px;
+  margin-top: 10px;
+  height: 250px;
+}
+
+.donasi i{
+  display: block;
+  padding: 5px;
+}
+
+.packages h3{
+  color: #1F1F1F;
+}
+
+.packages p,
+.packages i,
+ .packages a{
+  color: #1F1F1F;
+}
+
+.btn{
+  font-family: 'lato', sans-serif;
+  background-color: #ff6d00;
+  border-radius: 20px;
+  font-size: 15px;
+}
+
+.packages button{
+  margin-top: 10px
+}
+
+/*Contact*/
+.contact{
+  padding: 15px 0 15px;
+  text-align:center;
+}
+
+.contact h2 {
+  color: #4c4c4c;
+  margin: 10px 0 50px;
+}
+
+.contact h4 {
+  color:  #ff6d00;
+  margin: 50px 0 20px;
+}
+
+.fa-phone-square:hover{
+  color:#008000;
+}
+
+.fa-mobile:hover{
+  color: #000;
+}
+
+.fa-envelope:hover{
+  color: #8b0000;
+}
+
+.fa-instagram:hover{
+  color: #800080;
+}
+
+.fa-youtube-play:hover{
+  color: #ff0000;
+}
+
+.fa-facebook-official:hover{
+  color: #0000ff;
+}
+
+.contact p{
+color: #737373;
+font-size: 17px;
+padding-bottom: 40px;
+}
+
+/*lokasi*/
+
+.lokasi{
+  padding: 15px 0 15px;
+  text-align: center;
+  background-color: #4c4c4c;
+}
+
+.lokasi h2 {
+  color: #fff;
+  margin: 10px 0 50px;
+}
+
+.lokasi i{
+  color: #8b0000;
+  margin: 110px 0 10px;
+}
+
+.lokasi h3{
+color: #fff;
+margin: 10px 0 50px;
+}
+
+.lokasi iframe{
+  margin: 10px 0 50px;
+}
+
+/*footer*/
+
+.footer{
+  padding: 15px 0 15px;
+  text-align: center;
+  background-color: #000;
+}
+
+.footer p{
+color: #737373;
+font-size: 17px;
+}
+
+
+
+
+
+/*tentang kami*/
+.sejarah {
+  margin-bottom: -35px;
+}
+
+.tentang p {
+  font-size: 16px;
+}
+
+
+.tentang h1 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.visi {
+  margin-top: 100px;
+  margin-bottom: 40px;
+}
+
+.misi {
+  margin-top: 100px;
+  margin-bottom: 40px;
+}
+
+.gambar img {
+  margin-left: -70px;
+}
